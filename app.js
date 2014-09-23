@@ -17,11 +17,11 @@ var nodes = [
     {id: 5, reflexive: true },
     {id: 6, reflexive: false},
     {id: 7, reflexive: false},
-    {id: 8, reflexive: false}
+    {id: 8, reflexive: false},
 
   ],
-  lastNodeId = 0,
-  lastNodeId = 7,
+  lastNodeId = 1,
+  lastNodeId = 8,
   links = [
     {source: nodes[0], target: nodes[1], left: false, right: true },
     {source: nodes[1], target: nodes[2], left: false, right: true },

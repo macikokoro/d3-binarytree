@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Directed Graph Editor</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+
+  <body>
+    <p>Click in the open space to add a node, drag from one node to another to add an edge.</p>
+    <p>Ctrl-drag a node to move the graph layout.</p>
+    <p>Click a node or an edge to select it.</p>
+    <p>When a node is selected: R toggles reflexivity, Delete removes the node.</p>
+    <p>When an edge is selected: L(eft), R(ight), B(oth) change direction, Delete removes the edge.</p>
+    <div id="binary">
+    </div>
+  </body>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="app.js"></script>
+</html>
